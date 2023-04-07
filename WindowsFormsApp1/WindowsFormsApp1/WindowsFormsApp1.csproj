@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -72,6 +73,48 @@
     <Compile Include="ZD3.Designer.cs">
       <DependentUpon>ZD3.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZD4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD4.Designer.cs">
+      <DependentUpon>ZD4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD4_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD4_1.Designer.cs">
+      <DependentUpon>ZD4_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD4_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD4_2.Designer.cs">
+      <DependentUpon>ZD4_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD5.Designer.cs">
+      <DependentUpon>ZD5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD5_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD5_1.Designer.cs">
+      <DependentUpon>ZD5_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD6.Designer.cs">
+      <DependentUpon>ZD6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZD7.Designer.cs">
+      <DependentUpon>ZD7.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +136,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ZD3.resx">
       <DependentUpon>ZD3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD4.resx">
+      <DependentUpon>ZD4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD4_1.resx">
+      <DependentUpon>ZD4_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD4_2.resx">
+      <DependentUpon>ZD4_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD5.resx">
+      <DependentUpon>ZD5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD5_1.resx">
+      <DependentUpon>ZD5_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD6.resx">
+      <DependentUpon>ZD6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZD7.resx">
+      <DependentUpon>ZD7.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
